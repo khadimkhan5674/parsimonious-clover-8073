@@ -12,22 +12,17 @@
 .main .knavbar {
   max-width: 1440px;
   height: 80px;
-  background-color: #434CCC;
-  display: flex;
-  align-items: center;
-  max-width: 1440px;
-  height: 80px;
-  background-color: #434CCC;
+  background-color: #434ccc;
   display: flex;
   align-items: center;
 }
-.main .knavbar .knavBar img {
+.main .knavbar img {
   width: 95px;
   height: 28px;
   position: absolute;
   left: 135px;
 }
-.main .knavbar .nportfolio {
+.main .knavbar .kportfolio {
   width: 324px;
   height: 24px;
   position: absolute;
@@ -35,17 +30,17 @@
   display: flex;
   justify-content: space-between;
 }
-.main .knavbar .nportfolio a {
+.main .knavbar .kportfolio a {
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
-.main .knavbar .nnavbttn {
+.main .knavbar .knavbttn {
   font-family: DM Sans;
   width: 170px;
   height: 48px;
@@ -57,73 +52,34 @@
   letter-spacing: 0px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.3019607843);
-  background-color: #434CCC;
-  color: #FFFFFF;
-}
-.main .knavBar img {
-  width: 95px;
-  height: 28px;
-  position: absolute;
-  left: 135px;
-}
-.main .kportfolio {
-  width: 324px;
-  height: 24px;
-  position: absolute;
-  left: 771px;
-  display: flex;
-  justify-content: space-between;
-}
-.main .kportfolio a {
-  font-family: DM Sans;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: right;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-.main .knavbttn {
-  font-family: DM Sans;
-  width: 170px;
-  height: 48px;
-  font-weight: 700;
-  font-size: 16px;
-  border-radius: 1px;
-  position: absolute;
-  margin-left: 1135px;
-  letter-spacing: 0px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.3019607843);
-  background-color: #434CCC;
-  color: #FFFFFF;
+  background-color: #434ccc;
+  color: #ffffff;
 }
 .main .container {
   max-width: 1440px;
   height: 2736px;
   border: 1px solid red;
-  background-color: #434CCC;
+  background-color: #434ccc;
   opacity: 5.15%;
 }
 .main .subscribe {
   max-width: 1440px;
   height: 352px;
   border: 1px solid green;
-  background-color: #FFDD78;
+  background-color: #ffdd78;
 }
 .main .footer {
   max-width: 1440px;
   height: 400px;
   border: 1px solid yellow;
-  background-color: #434CCC;
+  background-color: #434ccc;
   opacity: 5.15%;
 }
 
 .nnavBar {
   width: 1440px;
   height: 80px;
-  background-color: #434CCC;
+  background-color: #434ccc;
   display: flex;
   align-items: center;
 }
@@ -145,18 +101,18 @@
 }
 
 .nportfolio a {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .nnavbttn {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   width: 170px;
   height: 48px;
   font-weight: 700;
@@ -167,17 +123,51 @@
   letter-spacing: 0px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.3019607843);
-  background-color: #434CCC;
-  color: #FFFFFF;
+  background-color: #434ccc;
+  color: #ffffff;
 }
 
+.ncontact {
+  width: 1440px;
+  height: 224px;
+  top: 80px;
+  background-color: #434ccc;
+}
+.ncontact h1 {
+  width: 249px;
+  height: 80px;
+  position: absolute;
+  top: 127px;
+  left: 596px;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.ncontact .npara {
+  width: 324px;
+  height: 32px;
+  position: absolute;
+  top: 217px;
+  left: 558px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
 .last-part {
   width: 1440px;
   height: 352px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  background: #FFDD78;
+  background: #ffdd78;
 }
 .last-part h5 {
   color: var(--Text_Black, #000);
@@ -214,8 +204,8 @@
   height: 48px;
   flex-shrink: 0;
   border-radius: 5px;
-  border: 1px solid #DADADA;
-  background: #FFF;
+  border: 1px solid #dadada;
+  background: #fff;
   margin-right: 30px;
   border-style: none;
 }
@@ -223,10 +213,10 @@
   width: 170px;
   height: 48px;
   flex-shrink: 0;
-  background-color: #434CCC;
+  background-color: #434ccc;
   color: white;
   border-radius: 5px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
