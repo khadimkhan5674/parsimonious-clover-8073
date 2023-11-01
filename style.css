@@ -35,8 +35,55 @@
   opacity: 5.15%;
 }
 
-h1 {
-  color: red;
+.nnavBar {
+  width: 1440px;
+  height: 80px;
+  background-color: #434CCC;
+  display: flex;
+  align-items: center;
+}
+
+.nnavBar img {
+  width: 95px;
+  height: 28px;
+  position: absolute;
+  left: 135px;
+}
+
+.nportfolio {
+  width: 324px;
+  height: 24px;
+  position: absolute;
+  left: 771px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nportfolio a {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nnavbttn {
+  font-family: DM Sans;
+  width: 170px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 1px;
+  position: absolute;
+  margin-left: 1135px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3019607843);
+  background-color: #434CCC;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
