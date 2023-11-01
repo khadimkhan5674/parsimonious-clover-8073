@@ -1,21 +1,23 @@
-body {
+* {
   margin: 0%;
   padding: 0%;
 }
 
-.last-part {
+body {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  height: auto;
+  justify-content: center;
+}
+
+.last-part {
+  width: 1440px;
+  height: 352px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
   background: #FFDD78;
 }
-.last-part :nth-child(1) {
-  width: 45%;
-}
-.last-part :nth-child(1) h5 {
+.last-part h5 {
+  color: var(--Text_Black, #000);
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -23,50 +25,51 @@ body {
   line-height: 24px;
   letter-spacing: 4.8px;
   text-transform: uppercase;
-  margin-top: 79px;
+  align-self: flex-start;
   margin-left: 135px;
+  margin-top: 79px;
 }
-.last-part :nth-child(1) h2 {
+.last-part .inner-part {
+  display: flex;
+  align-items: center;
+  margin: 0px 135px 100px 135px;
+}
+.last-part .inner-part .h1 {
+  width: 516px;
+  margin-right: 84px;
+}
+.last-part .inner-part .h1 h1 {
+  color: var(--Text_Black, #000);
   font-family: DM Serif Display;
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  margin-left: 135px;
-  margin-top: 21px;
 }
-.last-part :nth-child(2) {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 15px;
-}
-.last-part :nth-child(2) input {
+.last-part .inner-part input {
   width: 370px;
   height: 48px;
+  flex-shrink: 0;
   border-radius: 5px;
   border: 1px solid #DADADA;
   background: #FFF;
-  border: none;
+  margin-right: 30px;
+  border-style: none;
 }
-.last-part :nth-child(2) input ::placeholder {
-  margin: 13px 314px 11px 16px;
-}
-.last-part :nth-child(2) button {
+.last-part .inner-part button {
   width: 170px;
   height: 48px;
+  flex-shrink: 0;
+  background-color: #434CCC;
+  color: white;
   border-radius: 5px;
-  background: #434CCC;
-  margin-right: 135px;
-}
-.last-part :nth-child(2) button p {
   color: #FFF;
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 24px;
-  margin: 13px 45.5px 11px;
 }
 
 /*# sourceMappingURL=styles.css.map */
