@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 352px;
+    background: #FFDD78; 
+
+    :nth-child(1){
+    //    width: 50%; 
+    //    background-color: aliceblue;
+       
+       h5{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+       }
+       h2{
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+       }
+
+    }
+    :nth-child(2){
+        // width: 50%; 
+        // background-color: beige;
+     }
+}
+
