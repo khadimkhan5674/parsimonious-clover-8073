@@ -76,22 +76,27 @@
   opacity: 5.15%;
 }
 
-.nnavBar {
+.ncontactmain {
+  width: 1440px;
+  height: 2304px;
+  top: -382px;
+  left: 11592px;
+  background: #ffffff;
+}
+.ncontactmain .nnavBar {
   width: 1440px;
   height: 80px;
   background-color: #434ccc;
   display: flex;
   align-items: center;
 }
-
-.nnavBar img {
+.ncontactmain .nnavBar img {
   width: 95px;
   height: 28px;
   position: absolute;
   left: 135px;
 }
-
-.nportfolio {
+.ncontactmain .nportfolio {
   width: 324px;
   height: 24px;
   position: absolute;
@@ -99,9 +104,8 @@
   display: flex;
   justify-content: space-between;
 }
-
-.nportfolio a {
-  font-family: "DM Sans";
+.ncontactmain .nportfolio a {
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -110,9 +114,8 @@
   color: #ffffff;
   text-decoration: none;
 }
-
-.nnavbttn {
-  font-family: "DM Sans";
+.ncontactmain .nnavbttn {
+  font-family: "DM Sans", sans-serif;
   width: 170px;
   height: 48px;
   font-weight: 700;
@@ -126,14 +129,13 @@
   background-color: #434ccc;
   color: #ffffff;
 }
-
-.ncontact {
+.ncontactmain .ncontact {
   width: 1440px;
   height: 224px;
   top: 80px;
   background-color: #434ccc;
 }
-.ncontact h1 {
+.ncontactmain .ncontact h1 {
   width: 249px;
   height: 80px;
   position: absolute;
@@ -147,7 +149,7 @@
   letter-spacing: 0px;
   color: #ffffff;
 }
-.ncontact .npara {
+.ncontactmain .ncontact .npara {
   width: 324px;
   height: 32px;
   position: absolute;
@@ -161,6 +163,7 @@
   text-align: center;
   color: #ffffff;
 }
+
 .last-part {
   width: 1440px;
   height: 352px;

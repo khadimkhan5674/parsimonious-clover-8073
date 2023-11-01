@@ -81,88 +81,93 @@
 }
 
 // SASS code for contact page
-.nnavBar {
+.ncontactmain {
   width: 1440px;
-  height: 80px;
-  background-color: #434ccc;
-  display: flex;
-  align-items: center;
-}
-.nnavBar img {
-  width: 95px;
-  height: 28px;
-  position: absolute;
-  left: 135px;
-}
-.nportfolio {
-  width: 324px;
-  height: 24px;
-  position: absolute;
-  left: 771px;
-  display: flex;
-  justify-content: space-between;
-}
-.nportfolio a {
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: right;
-  color: #ffffff;
-  text-decoration: none;
-}
-.nnavbttn {
-  font-family: "DM Sans";
-  width: 170px;
-  height: 48px;
-  font-weight: 700;
-  font-size: 16px;
-  border-radius: 1px;
-  position: absolute;
-  margin-left: 1135px;
-  letter-spacing: 0px;
-  text-align: center;
-  border: 1px solid #ffffff4d;
-  background-color: #434ccc;
-  color: #ffffff;
-}
-.ncontact {
-  width: 1440px;
-  height: 224px;
-  top: 80px;
-  background-color: #434ccc;
+  height: 2304px;
+  top: -382px;
+  left: 11592px;
+  background: #ffffff;
 
-  h1 {
-    width: 249px;
+  .nnavBar {
+    width: 1440px;
     height: 80px;
-    position: absolute;
-    top: 127px;
-    left: 596px;
-    font-family: "DM Serif Display", serif;
-    text-align: center;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 80px;
-    letter-spacing: 0px;
-    color: #ffffff;
+    background-color: #434ccc;
+    display: flex;
+    align-items: center;
   }
-  .npara {
+  .nnavBar img {
+    width: 95px;
+    height: 28px;
+    position: absolute;
+    left: 135px;
+  }
+  .nportfolio {
     width: 324px;
-    height: 32px;
+    height: 24px;
     position: absolute;
-    top: 217px;
-    left: 558px;
+    left: 771px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nportfolio a {
     font-family: "DM Sans", sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .nnavbttn {
+    font-family: "DM Sans", sans-serif;
+    width: 170px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 1px;
+    position: absolute;
+    margin-left: 1135px;
     letter-spacing: 0px;
     text-align: center;
+    border: 1px solid #ffffff4d;
+    background-color: #434ccc;
     color: #ffffff;
   }
-  p {
-    //styleName: Text_Big;
+  .ncontact {
+    width: 1440px;
+    height: 224px;
+    top: 80px;
+    background-color: #434ccc;
+
+    h1 {
+      width: 249px;
+      height: 80px;
+      position: absolute;
+      top: 127px;
+      left: 596px;
+      font-family: "DM Serif Display", serif;
+      text-align: center;
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 80px;
+      letter-spacing: 0px;
+      color: #ffffff;
+    }
+    .npara {
+      width: 324px;
+      height: 32px;
+      position: absolute;
+      top: 217px;
+      left: 558px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #ffffff;
+    }
   }
 }
 //rohan
