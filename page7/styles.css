@@ -3,11 +3,6 @@
   padding: 0%;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-}
-
 .last-part {
   width: 1440px;
   height: 352px;
