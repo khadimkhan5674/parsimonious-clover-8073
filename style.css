@@ -4,13 +4,13 @@
 }
 
 .main {
-  max-width: 1440px;
+  width: 1440px;
   height: 3568px;
   border: 1px solid black;
   background-color: white;
 }
 .main .knavbar {
-  max-width: 1440px;
+  width: 1440px;
   height: 80px;
   background-color: #434ccc;
   display: flex;
@@ -56,20 +56,83 @@
   color: #ffffff;
 }
 .main .container {
-  max-width: 1440px;
+  width: 1440px;
   height: 2736px;
   border: 1px solid red;
   background-color: #434ccc;
   opacity: 5.15%;
 }
 .main .subscribe {
-  max-width: 1440px;
+  width: 1440px;
   height: 352px;
   border: 1px solid green;
   background-color: #ffdd78;
 }
+.main .subscribe .last-part {
+  width: 1440px;
+  height: 352px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: #ffdd78;
+}
+.main .subscribe .last-part h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin-left: 135px;
+  margin-top: 79px;
+}
+.main .subscribe .last-part .inner-part {
+  display: flex;
+  align-items: center;
+  margin: 0px 135px 100px 135px;
+}
+.main .subscribe .last-part .inner-part .h1 {
+  width: 516px;
+  margin-right: 84px;
+}
+.main .subscribe .last-part .inner-part .h1 h1 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.main .subscribe .last-part .inner-part input {
+  width: 370px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  background: #fff;
+  margin-right: 30px;
+  border-style: none;
+}
+.main .subscribe .last-part .inner-part button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #434ccc;
+  color: white;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
 .main .footer {
-  max-width: 1440px;
+  width: 1440px;
   height: 400px;
   border: 1px solid yellow;
   background-color: #434ccc;
