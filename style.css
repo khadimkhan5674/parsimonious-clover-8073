@@ -59,8 +59,7 @@
   width: 1440px;
   height: 2736px;
   border: 1px solid red;
-  background-color: #434ccc;
-  opacity: 5.15%;
+  background-color: rgba(67, 76, 204, 0.0515);
 }
 .main .subscribe {
   width: 1440px;
