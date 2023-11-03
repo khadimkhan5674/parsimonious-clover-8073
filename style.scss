@@ -68,7 +68,7 @@
     //    background-color: #434ccc;
     //    opacity: 5.15%;
   }
-    // SUBSCRIBE START
+  // SUBSCRIBE START
   .subscribe {
     max-width: 1440px;
     height: 352px;
@@ -144,7 +144,7 @@
         }
       }
     }
-  }  // SUBSCRIBE ENDS HERE
+  } // SUBSCRIBE ENDS HERE
 
   // Footer start
   .footer {
@@ -174,7 +174,7 @@
             font-weight: bold;
             font-size: 24px;
             line-height: 32px;
-            font-family: 'DM Serif Display', serif;
+            font-family: "DM Serif Display", serif;
           }
         }
 
@@ -187,9 +187,8 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
-            font-family: 'DM Sans', sans-serif;
+            font-family: "DM Sans", sans-serif;
             color: gray;
-
           }
         }
 
@@ -209,7 +208,7 @@
           font-weight: 700;
           line-height: 24px;
           margin-bottom: 23px;
-          font-family: 'DM Sans', sans-serif;
+          font-family: "DM Sans", sans-serif;
           color: rgb(12, 0, 0);
         }
 
@@ -223,11 +222,10 @@
           margin-bottom: 20px;
 
           a {
-            font-family: 'DM Sans', sans-serif;
+            font-family: "DM Sans", sans-serif;
             color: gray;
           }
         }
-
       }
 
       .aperiri {
@@ -238,7 +236,7 @@
           font-weight: 700;
           line-height: 24px;
           margin-bottom: 23px;
-          font-family: 'DM Sans', sans-serif;
+          font-family: "DM Sans", sans-serif;
           color: rgb(12, 0, 0);
         }
 
@@ -252,7 +250,7 @@
           margin-bottom: 20px;
 
           a {
-            font-family: 'DM Sans', sans-serif;
+            font-family: "DM Sans", sans-serif;
             color: gray;
           }
         }
@@ -262,7 +260,6 @@
         flex-basis: 33.32%;
         display: flex;
         flex-direction: column;
-
 
         .latest-post-1 {
           display: flex;
@@ -279,7 +276,7 @@
             p {
               font-size: 16px;
               color: rgb(12, 14, 15);
-              font-family: 'DM Sans', sans-serif;
+              font-family: "DM Sans", sans-serif;
               color: gray;
             }
           }
@@ -299,9 +296,8 @@
             p {
               font-size: 16px;
               color: rgb(18, 20, 22);
-              font-family: 'DM Sans', sans-serif;
+              font-family: "DM Sans", sans-serif;
               color: gray;
-
             }
           }
         }
@@ -325,7 +321,6 @@
       margin-top: 20px;
     }
   } // Footer ends here
-
 }
 
 // SASS code for contact page
