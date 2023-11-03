@@ -133,9 +133,139 @@
 .main .footer {
   max-width: 1440px;
   height: 400px;
-  border: 1px solid yellow;
-  background-color: #434ccc;
-  opacity: 5.15%;
+  background-color: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .footer .footer-container {
+  width: 1170px;
+  height: 250px;
+  display: flex;
+}
+.main .footer .footer-container .logo-social {
+  flex-basis: 33.32%;
+}
+.main .footer .footer-container .logo-social #ls-child-1 {
+  height: 62px;
+  width: 32px;
+  margin: 0px;
+}
+.main .footer .footer-container .logo-social #ls-child-1 p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "DM Serif Display", serif;
+}
+.main .footer .footer-container .logo-social #ls-child-2 {
+  width: 270px;
+  height: 79px;
+  margin-bottom: 16px;
+}
+.main .footer .footer-container .logo-social #ls-child-2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.main .footer .footer-container .logo-social #ls-child-3 {
+  width: 80px;
+  height: 20px;
+  display: flex;
+  gap: 10px;
+}
+.main .footer .footer-container .causea {
+  flex-basis: 16.66%;
+}
+.main .footer .footer-container .causea p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+  font-family: "DM Sans", sans-serif;
+  color: rgb(12, 0, 0);
+}
+.main .footer .footer-container .causea ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.main .footer .footer-container .causea li {
+  margin-bottom: 20px;
+}
+.main .footer .footer-container .causea li a {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.main .footer .footer-container .aperiri {
+  flex-basis: 16.66%;
+}
+.main .footer .footer-container .aperiri p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+  font-family: "DM Sans", sans-serif;
+  color: rgb(12, 0, 0);
+}
+.main .footer .footer-container .aperiri ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.main .footer .footer-container .aperiri li {
+  margin-bottom: 20px;
+}
+.main .footer .footer-container .aperiri li a {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.main .footer .footer-container .latest-post {
+  flex-basis: 33.32%;
+  display: flex;
+  flex-direction: column;
+}
+.main .footer .footer-container .latest-post .latest-post-1 {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.main .footer .footer-container .latest-post .latest-post-1 .latest-post-img {
+  width: 70px;
+  height: 48px;
+  margin-top: 10px;
+}
+.main .footer .footer-container .latest-post .latest-post-1 .latest-post-dics p {
+  font-size: 16px;
+  color: rgb(12, 14, 15);
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.main .footer .footer-container .latest-post .latest-post-2 {
+  display: flex;
+  gap: 15px;
+}
+.main .footer .footer-container .latest-post .latest-post-2 .latest-post-img {
+  width: 70px;
+  height: 48px;
+  margin-top: 10px;
+}
+.main .footer .footer-container .latest-post .latest-post-2 .latest-post-dics p {
+  font-size: 16px;
+  color: rgb(18, 20, 22);
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.main .footer .base {
+  display: flex;
+  gap: 600px;
+  justify-content: space-between;
+  align-content: space-between;
+  max-width: 1170px;
+  height: 40px;
+  margin-top: 20px;
 }
 
 .ncontactmain {
