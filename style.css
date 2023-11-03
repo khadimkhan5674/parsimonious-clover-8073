@@ -667,15 +667,15 @@
 }
 
 .last-part {
-  max-width: 1440px;
   height: 352px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  background: #ffdd78;
+  display: block;
+  padding-left: 135px;
+  padding-top: 78px;
+  padding-right: 135px;
+  background: #FFDD78;
 }
 .last-part h5 {
-  color: var(--Text_Black, #000);
+  color: #000;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -684,33 +684,36 @@
   letter-spacing: 4.8px;
   text-transform: uppercase;
   align-self: flex-start;
-  margin-left: 135px;
-  margin-top: 79px;
+  margin-top: 37px;
 }
 .last-part .inner-part {
-  display: flex;
-  align-items: center;
-  margin: 0px 135px 100px 135px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .last-part .inner-part .h1 {
   width: 516px;
-  margin-right: 84px;
+  padding-top: 21px;
 }
 .last-part .inner-part .h1 h1 {
-  color: var(--Text_Black, #000);
+  color: #000;
   font-family: DM Serif Display;
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
 }
+.last-part .inner-part .left-input {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .last-part .inner-part input {
   width: 370px;
   height: 48px;
   flex-shrink: 0;
   border-radius: 5px;
-  border: 1px solid #dadada;
-  background: #fff;
+  border: 1px solid #DADADA;
+  background: #FFF;
   margin-right: 30px;
   border-style: none;
 }
@@ -718,16 +721,132 @@
   width: 170px;
   height: 48px;
   flex-shrink: 0;
-  background-color: #434ccc;
+  background-color: #434CCC;
   color: white;
   border-radius: 5px;
-  color: #fff;
+  color: #FFF;
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+}
+
+.last-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f5f6fc;
+  height: 320px;
+  padding-left: 135px;
+  padding-right: 135px;
+  border-bottom: 0.5px solid #cbd5e1;
+}
+.last-container .logo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  flex-wrap: wrap;
+}
+.last-container .logo h4 {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.last-container .logo p {
+  width: 270px;
+  height: 79px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.last-container .logo .social {
+  display: flex;
+  column-gap: 12px;
+  flex-wrap: wrap;
+}
+.last-container .second-c {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 79px;
+}
+.last-container .second-c p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.last-container .second-c .cause {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+.last-container .third-c {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 38px;
+  padding-top: 79px;
+}
+.last-container .third-c .bitmap {
+  display: flex;
+  gap: 30px;
+}
+.last-container .third-c .bitmap img {
+  width: 71px;
+  height: 48px;
+  border-radius: 5px;
+}
+.last-container .third-c .bitmap p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.last-container .third-c .bitmap .date {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #f5f6fc;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.footer .c1 {
+  text-align: left;
+  width: 50%;
+}
+.footer .c2 {
+  text-align: right;
+  width: 50%;
+}
+.footer p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media all and (max-width: 375px) {
