@@ -269,14 +269,14 @@
 }
 
 .ncontactmain {
-  width: 1440px;
+  max-width: 1440px;
   height: 2304px;
   top: -382px;
   left: 11592px;
   background: #ffffff;
 }
 .ncontactmain .nnavBar {
-  width: 1440px;
+  max-width: 1440px;
   height: 80px;
   background-color: #434ccc;
   display: flex;
@@ -591,6 +591,28 @@
   left: 1162px;
 }
 
+@media all and (max-width: 375px) {
+  .ncontactmain {
+    width: 375px;
+    height: 2864px;
+    top: -382px;
+    left: 13132px;
+  }
+  .ncontactmain .nnavBar {
+    width: 375px;
+    height: 64px;
+  }
+  .ncontactmain .nnavBar img {
+    width: 62px;
+    height: 32px;
+    position: absolute;
+    top: 16px;
+    left: 14px;
+  }
+  .ncontactmain .nportfolio {
+    display: none;
+  }
+}
 .last-part {
   max-width: 1440px;
   height: 352px;

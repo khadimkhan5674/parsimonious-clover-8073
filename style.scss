@@ -327,14 +327,14 @@
 
 //Nishant Bhargava
 .ncontactmain {
-  width: 1440px;
+  max-width: 1440px;
   height: 2304px;
   top: -382px;
   left: 11592px;
   background: #ffffff;
 
   .nnavBar {
-    width: 1440px;
+    max-width: 1440px;
     height: 80px;
     background-color: #434ccc;
     display: flex;
@@ -657,6 +657,35 @@
   position: absolute;
   top: 1439px;
   left: 1162px;
+}
+@media all and (max-width: 375px) {
+  .ncontactmain {
+    width: 375px;
+    height: 2864px;
+    top: -382px;
+    left: 13132px;
+
+    // width: 1440px;
+    // height: 2304px;
+    // top: -382px;
+    // left: 11592px;
+    // background: #ffffff;
+
+    .nnavBar {
+      width: 375px;
+      height: 64px;
+    }
+    .nnavBar img {
+      width: 62px;
+      height: 32px;
+      position: absolute;
+      top: 16px;
+      left: 14px;
+    }
+    .nportfolio {
+      display: none;
+    }
+  }
 }
 
 //rohan
