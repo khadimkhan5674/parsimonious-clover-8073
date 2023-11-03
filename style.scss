@@ -10,7 +10,7 @@
   background-color: white;
 
   .knavbar {
-    max-width: 1440px;
+    width: 1440px;
     height: 80px;
     background-color: #434ccc;
     display: flex;
@@ -33,7 +33,7 @@
     }
 
     .kportfolio a {
-      font-family: DM Sans;
+      font-family: "DM Sans";
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
@@ -44,7 +44,7 @@
     }
 
     .knavbttn {
-      font-family: DM Sans;
+      font-family: "DM Sans";
       width: 170px;
       height: 48px;
       font-weight: 400;
@@ -327,14 +327,14 @@
 
 //Nishant Bhargava
 .ncontactmain {
-  max-width: 1440px;
+  width: 1440px;
   height: 2304px;
   top: -382px;
   left: 11592px;
   background: #ffffff;
 
   .nnavBar {
-    max-width: 1440px;
+    width: 1440px;
     height: 80px;
     background-color: #434ccc;
     display: flex;
@@ -383,9 +383,16 @@
     background-color: #434ccc;
     color: #ffffff;
   }
-
+  .nhiddenmenu {
+    display: none;
+    width: 20px;
+    height: 14px;
+    position: relative;
+    top: 24px;
+    left: 340px;
+  }
   .ncontact {
-    max-width: 1440px;
+    width: 1440px;
     height: 224px;
     top: 80px;
     background-color: #434ccc;
@@ -424,7 +431,7 @@
 }
 
 .nMap {
-  max-width: 1440px;
+  width: 1440px;
   height: 1248px;
   top: 304px;
   background-color: rgb(245, 246, 252);
@@ -456,6 +463,9 @@
   left: 135px;
   background-color: #434ccc;
   opacity: 1;
+}
+.nhiddenimg {
+  display: none;
 }
 
 .nlocimg {
@@ -658,35 +668,6 @@
   top: 1439px;
   left: 1162px;
 }
-@media all and (max-width: 375px) {
-  .ncontactmain {
-    width: 375px;
-    height: 2864px;
-    top: -382px;
-    left: 13132px;
-
-    // width: 1440px;
-    // height: 2304px;
-    // top: -382px;
-    // left: 11592px;
-    // background: #ffffff;
-
-    .nnavBar {
-      width: 375px;
-      height: 64px;
-    }
-    .nnavBar img {
-      width: 62px;
-      height: 32px;
-      position: absolute;
-      top: 16px;
-      left: 14px;
-    }
-    .nportfolio {
-      display: none;
-    }
-  }
-}
 
 //rohan
 
@@ -758,4 +739,326 @@
       line-height: 24px;
     }
   }
+}
+@media all and (max-width: 375px) {
+  //Nishant Bhargava Css
+  .ncontactmain {
+    width: 375px;
+    height: 2864px;
+    top: -382px;
+    left: 13132px;
+
+    .nnavBar {
+      width: 375px;
+      height: 64px;
+    }
+    .nnavBar img {
+      width: 59px;
+      height: 24px;
+      position: absolute;
+      top: 16px;
+      left: 14px;
+    }
+    .nportfolio {
+      display: none;
+    }
+
+    .nportfolio a {
+      display: none;
+    }
+
+    .nnavbttn {
+      display: none;
+    }
+    .nhiddenmenu {
+      display: flex;
+      width: 20px;
+      height: 14px;
+      top: 3px;
+      left: 279px;
+      position: absolute;
+    }
+    .ncontact {
+      width: 375px;
+      height: 176px;
+      top: 64px;
+      background-color: #434ccc;
+      display: flex;
+
+      h1 {
+        width: 194px;
+        height: 64px;
+        position: absolute;
+        top: 92px;
+        left: 92px;
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      .npara {
+        width: 324px;
+        height: 32px;
+        position: absolute;
+        top: 169px;
+        left: 27px;
+        font-family: DM Sans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+  }
+
+  .nMap {
+    width: 375px;
+    height: 1248px;
+    top: 240px;
+    background-color: rgb(245, 246, 252);
+
+    .nhiddenmain {
+      display: none;
+      width: 20px;
+      height: 14px;
+      top: 24px;
+      left: 340px;
+    }
+    .nhiddenimg {
+      display: block;
+    }
+    .nmsg {
+      width: 147px;
+      height: 48px;
+      top: 490px;
+      left: 14px;
+      position: absolute;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48px;
+      letter-spacing: 0px;
+      text-align: left;
+      font-family: "DM Serif Display";
+      color: #000000;
+    }
+  }
+
+  .nMask {
+    width: 347px;
+    height: 190px;
+    top: 256px;
+    left: 14px;
+    position: absolute;
+    background-color: #434ccc;
+    opacity: 1;
+  }
+
+  .nlocimg {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 652px;
+    left: 684px;
+  }
+
+  .nnameInput {
+    width: 346px;
+    height: 76px;
+    top: 548px;
+    left: 14px;
+    position: absolute;
+  }
+
+  #nname {
+    width: 346px;
+    height: 48px;
+    top: 28px;
+    border: 1px;
+    position: absolute;
+    border: 1px solid #dadada;
+    background: #ffffff;
+  }
+
+  .nemailInput {
+    width: 346px;
+    height: 76px;
+    top: 612px;
+    left: 14px;
+
+    position: absolute;
+  }
+
+  #nemail {
+    width: 346px;
+    height: 48px;
+    top: 28px;
+    position: absolute;
+    border: 1px solid #dadada;
+    background: #ffffff;
+  }
+
+  .ntextareainput {
+    width: 347px;
+    height: 172px;
+    top: 676px;
+    left: 14px;
+    position: absolute;
+  }
+
+  #ntextarea {
+    width: 347px;
+    height: 144px;
+    top: 28px;
+    position: absolute;
+    border: 1px solid #dadada;
+    background: #ffffff;
+  }
+
+  .nsubbttn {
+    width: 170px;
+    height: 48px;
+    top: 880px;
+    left: 14px;
+    position: absolute;
+    background-color: #434ccc;
+    border: none;
+    color: white;
+    border-radius: 6px;
+  }
+
+  .ninfo {
+    width: 71px;
+    height: 48px;
+    top: 1004px;
+    left: 14px;
+    position: absolute;
+  }
+
+  .ncombine1 {
+    width: 48px;
+    height: 48px;
+    top: 1104px;
+    left: 14px;
+    position: absolute;
+  }
+
+  .ncombine2 {
+    width: 48px;
+    height: 48px;
+    top: 1184px;
+    left: 14px;
+    position: absolute;
+  }
+
+  .ncombine3 {
+    width: 48px;
+    height: 37px;
+    top: 1269px;
+    left: 14px;
+    position: absolute;
+  }
+
+  .ncomb1text {
+    width: 277px;
+    height: 48px;
+    top: 1103px;
+    left: 84px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+  }
+
+  .ncomb2text {
+    width: 200px;
+    height: 32px;
+    top: 1193px;
+    left: 84px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: "DM Sans";
+  }
+
+  .ncomb3text {
+    width: 200px;
+    height: 24px;
+    top: 1279px;
+    left: 84px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    font-family: "DM Sans";
+  }
+
+  .nfacebook {
+    width: 48px;
+    height: 48px;
+    top: 1360px;
+    left: 14px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #434ccc;
+  }
+
+  .ntwitter {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 1360px;
+    left: 70px;
+    border-radius: 5px;
+    background-color: #434ccc;
+  }
+
+  .ninsta {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 1360px;
+    left: 126px;
+    border-radius: 5px;
+    background-color: #434ccc;
+  }
+
+  .nfacebookimg {
+    width: 9px;
+    height: 18px;
+    position: absolute;
+    top: 1375px;
+    left: 34px;
+  }
+
+  .ntwitterimg {
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    top: 1377px;
+    left: 85px;
+  }
+  .ninstaimg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 1375px;
+    left: 141px;
+  }
+
+  //Rohan
 }
