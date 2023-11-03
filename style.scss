@@ -59,15 +59,98 @@
       color: #ffffff;
     }
   }
-
   .container {
     max-width: 1440px;
     height: 2736px;
-    border: 1px solid red;
+    // border: 1px solid red;
     background-color: rgba(67, 76, 204, 0.0515);
+
     //    background-color: #434ccc;
     //    opacity: 5.15%;
+
+
+    .container-1 {   //Himanshu This is your conatiner Start
+      max-width: 1440px;
+      height: 2000px;
+      border: 1px solid black;
+    }  // Ends Here
+
+    .container-2 {
+      #dolorum {
+        height: 26px;
+        width: 106px;
+        margin-top: 20px;
+        margin-left: 90px;
+
+        p {
+          font-family: DM Sans;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 2px;
+        }
+      }
+
+      #reprehundent {
+        height: 64px;
+        width: 356px;
+        margin-left: 90px;
+
+        p {
+          font-size: 40px;
+          font-size: DM Serif Display;
+          font-weight: 550;
+        }
+      }
+
+      .cont-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        #cont-img-1 {
+          width: 570px;
+          height: 512px;
+          // border: 1px solid black;
+          position: relative;
+
+          #statue {
+            position: absolute;
+            bottom: 200px;
+            left: 50px;
+          }
+        }
+
+        #cont-img-2 {
+          width: 570px;
+          height: 512px;
+          // border: 1px solid black;
+          position: relative;
+
+          #dog {
+            position: absolute;
+            bottom: 200px;
+            left: 50px;
+          }
+        }
+      }
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          margin-top: 20px;
+          padding: 15px 35px 15px 35px;
+          border: 1px solid blue;
+          font-size: 16px;
+        }
+      }
+    }
+
   }
+  
   // SUBSCRIBE START
   .subscribe {
     max-width: 1440px;
