@@ -716,6 +716,7 @@
   background: #FFF;
   margin-right: 30px;
   border-style: none;
+  padding-left: 12px;
 }
 .last-part .inner-part button {
   width: 170px;
@@ -780,7 +781,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  gap: 10px;
+  gap: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
 .last-container .second-c .cause {
@@ -827,6 +828,7 @@
 .footer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 80px;
   background-color: #f5f6fc;
   padding-left: 135px;
@@ -852,7 +854,7 @@
 @media all and (max-width: 375px) {
   .ncontactmain {
     width: 375px;
-    height: 2864px;
+    height: auto;
     top: -382px;
     left: 13132px;
   }
@@ -1136,6 +1138,96 @@
     position: absolute;
     top: 1375px;
     left: 141px;
+  }
+  .last-part {
+    height: 352px;
+    display: block;
+    padding-left: 14px;
+    padding-top: 63px;
+    padding-right: 15px;
+    background: #FFDD78;
+  }
+  .last-part h5 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-top: 37px;
+  }
+  .last-part .inner-part {
+    display: block;
+  }
+  .last-part .inner-part .h1 {
+    width: 516px;
+    padding-top: 21px;
+  }
+  .last-part .inner-part .h1 h1 {
+    color: #000;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  .last-part .inner-part .left-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .last-part .inner-part input {
+    width: 346px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    margin-right: 30px;
+    border-style: none;
+  }
+  .last-part .inner-part button {
+    width: 170px;
+    height: 48px;
+    align-self: flex-start;
+  }
+  .last-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #f5f6fc;
+    height: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid #cbd5e1;
+  }
+  .last-container .logo {
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .last-container .logo p {
+    width: 346px;
+    height: 79px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #f5f6fc;
+    padding: 20px 14px 20px 14px;
+    gap: 8px;
+  }
+  .footer .c1 {
+    width: 100%;
+  }
+  .footer .c2 {
+    text-align: left;
+    width: 100%;
   }
 }
 
