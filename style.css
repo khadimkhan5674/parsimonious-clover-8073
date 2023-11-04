@@ -672,7 +672,7 @@
   padding-left: 135px;
   padding-top: 78px;
   padding-right: 135px;
-  background: #FFDD78;
+  background: #ffdd78;
 }
 .last-part h5 {
   color: #000;
@@ -712,8 +712,8 @@
   height: 48px;
   flex-shrink: 0;
   border-radius: 5px;
-  border: 1px solid #DADADA;
-  background: #FFF;
+  border: 1px solid #dadada;
+  background: #fff;
   margin-right: 30px;
   border-style: none;
 }
@@ -721,10 +721,10 @@
   width: 170px;
   height: 48px;
   flex-shrink: 0;
-  background-color: #434CCC;
+  background-color: #434ccc;
   color: white;
   border-radius: 5px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
