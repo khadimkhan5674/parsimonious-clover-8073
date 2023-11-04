@@ -925,6 +925,7 @@
         font-weight: 400;
         line-height: 24px;
       }
+<<<<<<< HEAD
       .date {
         font-family: DM Sans;
         font-size: 12px;
@@ -932,10 +933,38 @@
         font-weight: 700;
         line-height: 24px;
         color: #000;
+=======
+      input{
+          width: 370px;
+          height: 48px;
+          flex-shrink: 0;
+          border-radius: 5px;
+          border: 1px solid #DADADA;
+          background: #FFF;
+          margin-right: 30px;
+          border-style: none; 
+          padding-left: 12px;
+      }
+      button{
+          width: 170px;
+          height: 48px;
+          flex-shrink: 0;
+          background-color: #434CCC;
+          color: white;
+          border-radius: 5px;
+          color: #FFF;
+          text-align: center;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+>>>>>>> 4302dbe788fe96e4491a5ab75b826279204db9ec
       }
     }
   }
 }
+<<<<<<< HEAD
 .footer {
   display: flex;
   align-items: center;
@@ -961,13 +990,153 @@
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5);
   }
+=======
+.last-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+background-color: #f5f6fc;
+// width: 1440px;
+ // width: 100%;
+ height: 320px;
+ padding-left: 135px;
+ padding-right: 135px; 
+ border-bottom: 0.5px solid #cbd5e1;
+ 
+.logo{
+ display: flex;
+ flex-direction: column;
+ // border: 1px solid;
+ padding-top:72px ;
+ flex-wrap: wrap;
+
+ h4{
+     font-family: DM Serif Display;
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 32px;
+     // margin-top: 72px;
+     // margin-left: 135px;
+     
+ }
+ p{
+     width: 270px;
+     height: 79px;
+     font-family: DM Sans;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     margin-top: 23px;
+     color: rgba(0, 0, 0, 0.50);
+ }
+ .social{
+     display: flex;
+     column-gap: 12px;
+     // margin-top: 16px;
+     flex-wrap: wrap;
+ }
+}
+.second-c{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ // border: 1px solid;
+ padding-top: 79px;
+//  border: 1px solid;
+ 
+ p{
+     font-family: DM Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     gap: 15px; 
+     color:  rgba(0, 0, 0, 0.50);  
+ }
+ .cause{
+    //  margin-top:79px;
+    //  margin-bottom: 24px;
+     font-family: DM Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 24px;
+     color: #000;
+ }
+ 
+}
+.third-c{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ gap: 38px;
+ // border: 1px solid;
+ padding-top: 79px;
+ .bitmap{
+     display: flex;
+     gap: 30px;
+
+     img{
+         width: 71px;
+         height: 48px;
+         border-radius: 5px;
+     }
+     p{
+         color:  rgba(0, 0, 0, 0.50);
+         font-family: DM Sans;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 24px;
+     }
+     .date{
+         font-family: DM Sans;
+         font-size: 12px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 24px;
+         color: #000;
+     }
+ }
+}
+
+}
+.footer{
+
+ display: flex;
+ align-items: center;
+//  flex-direction: column;
+ // justify-content:space-around;
+ justify-content: space-between;
+ height: 80px;
+ background-color: #f5f6fc;
+ padding-left: 135px;
+ padding-right: 135px;
+//  width: 1440px;
+ .c1{
+     text-align: left;
+    width: 50%;
+ }
+ .c2{
+      text-align: right;
+      width: 50%; 
+ }
+ p{ 
+     font-family: DM Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     color: rgba(0, 0, 0, 0.50);
+ }
+>>>>>>> 4302dbe788fe96e4491a5ab75b826279204db9ec
 }
 
 @media all and (max-width: 375px) {
   //Nishant Bhargava Css
   .ncontactmain {
     width: 375px;
-    height: 2864px;
+    // width: 100%;
+    // height: 2864px;
+    height: auto;
     top: -382px;
     left: 13132px;
 
@@ -1284,4 +1453,107 @@
   }
 
   //Rohan
+  .last-part{
+    // width: 1440px;
+    height: 352px;
+    display: block;
+    padding-left: 14px;
+    padding-top: 63px;
+    padding-right: 15px;
+    // padding-bottom: 50px;
+    // flex-direction: column;
+    background: #FFDD78;
+    // padding: 79px 135px 100px 135px;
+    h5{
+        color:  #000;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        letter-spacing: 4.8px;
+        text-transform: uppercase; 
+        align-self: flex-start;
+        // margin-left: 135px;
+        margin-top: 37px;
+    }
+    .inner-part{
+        display: block;
+        .h1{
+            width: 516px;
+            // margin-right: 84px;
+            padding-top: 21px;
+            // border: 1px solid red;
+            h1{
+              color:  #000;
+              font-family: DM Serif Display;
+              font-size: 40px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 48px; 
+               
+            }
+        }
+        .left-input{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 8px;
+          
+        }
+        input{
+            width: 346px;
+            height: 48px;
+            border-radius: 5px;
+            border: 1px solid #DADADA;
+            background: #FFF;
+            margin-right: 30px;
+            border-style: none; 
+        }
+        button{
+            width: 170px;
+            height: 48px;
+            align-self: flex-start;
+        }
+    }
+  }
+  .last-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #f5f6fc;
+    height: auto;
+     padding-left: 14px;
+     padding-right: 14px;
+     padding-bottom:50px ;
+     border-bottom: 0.5px solid #cbd5e1;
+     
+    .logo{
+     display: flex;
+     flex-direction: column;
+    display: block;
+     p{
+          width: 346px;
+          height: 79px;
+     }
+    }
+    
+    }
+    .footer{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+     background-color: #f5f6fc;
+     padding: 20px 14px 20px 14px;
+     gap: 8px;
+     .c1{
+        width: 100%;
+       
+     }
+     .c2{
+         text-align: left;
+         width: 100%; 
+     }
+    
+    }
 }
