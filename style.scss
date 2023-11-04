@@ -925,7 +925,6 @@
         font-weight: 400;
         line-height: 24px;
       }
-<<<<<<< HEAD
       .date {
         font-family: DM Sans;
         font-size: 12px;
@@ -933,627 +932,615 @@
         font-weight: 700;
         line-height: 24px;
         color: #000;
-=======
-      input{
+        input {
           width: 370px;
           height: 48px;
           flex-shrink: 0;
           border-radius: 5px;
-          border: 1px solid #DADADA;
-          background: #FFF;
+          border: 1px solid #dadada;
+          background: #fff;
           margin-right: 30px;
-          border-style: none; 
+          border-style: none;
           padding-left: 12px;
-      }
-      button{
+        }
+        button {
           width: 170px;
           height: 48px;
           flex-shrink: 0;
-          background-color: #434CCC;
+          background-color: #434ccc;
           color: white;
           border-radius: 5px;
-          color: #FFF;
+          color: #fff;
           text-align: center;
           font-family: DM Sans;
           font-size: 16px;
           font-style: normal;
           font-weight: 700;
           line-height: 24px;
->>>>>>> 4302dbe788fe96e4491a5ab75b826279204db9ec
+        }
       }
     }
   }
-}
-<<<<<<< HEAD
-.footer {
-  display: flex;
-  align-items: center;
-  // justify-content:space-around;
-  height: 80px;
-  background-color: #f5f6fc;
-  padding-left: 135px;
-  padding-right: 135px;
-  //  width: 1440px;
-  .c1 {
-    text-align: left;
-    width: 50%;
-  }
-  .c2 {
-    text-align: right;
-    width: 50%;
-  }
-  p {
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.5);
-  }
-=======
-.last-container{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-background-color: #f5f6fc;
-// width: 1440px;
- // width: 100%;
- height: 320px;
- padding-left: 135px;
- padding-right: 135px; 
- border-bottom: 0.5px solid #cbd5e1;
- 
-.logo{
- display: flex;
- flex-direction: column;
- // border: 1px solid;
- padding-top:72px ;
- flex-wrap: wrap;
-
- h4{
-     font-family: DM Serif Display;
-     font-size: 24px;
-     font-weight: 400;
-     line-height: 32px;
-     // margin-top: 72px;
-     // margin-left: 135px;
-     
- }
- p{
-     width: 270px;
-     height: 79px;
-     font-family: DM Sans;
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 24px;
-     margin-top: 23px;
-     color: rgba(0, 0, 0, 0.50);
- }
- .social{
-     display: flex;
-     column-gap: 12px;
-     // margin-top: 16px;
-     flex-wrap: wrap;
- }
-}
-.second-c{
- display: grid;
- grid-template-columns: repeat(2,1fr);
- // border: 1px solid;
- padding-top: 79px;
-//  border: 1px solid;
- 
- p{
-     font-family: DM Sans;
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 24px;
-     gap: 15px; 
-     color:  rgba(0, 0, 0, 0.50);  
- }
- .cause{
-    //  margin-top:79px;
-    //  margin-bottom: 24px;
-     font-family: DM Sans;
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 24px;
-     color: #000;
- }
- 
-}
-.third-c{
- display: flex;
- flex-direction: column;
- flex-wrap: wrap;
- gap: 38px;
- // border: 1px solid;
- padding-top: 79px;
- .bitmap{
-     display: flex;
-     gap: 30px;
-
-     img{
-         width: 71px;
-         height: 48px;
-         border-radius: 5px;
-     }
-     p{
-         color:  rgba(0, 0, 0, 0.50);
-         font-family: DM Sans;
-         font-size: 16px;
-         font-style: normal;
-         font-weight: 400;
-         line-height: 24px;
-     }
-     .date{
-         font-family: DM Sans;
-         font-size: 12px;
-         font-style: normal;
-         font-weight: 700;
-         line-height: 24px;
-         color: #000;
-     }
- }
-}
-
-}
-.footer{
-
- display: flex;
- align-items: center;
-//  flex-direction: column;
- // justify-content:space-around;
- justify-content: space-between;
- height: 80px;
- background-color: #f5f6fc;
- padding-left: 135px;
- padding-right: 135px;
-//  width: 1440px;
- .c1{
-     text-align: left;
-    width: 50%;
- }
- .c2{
+  .footer {
+    display: flex;
+    align-items: center;
+    // justify-content:space-around;
+    height: 80px;
+    background-color: #f5f6fc;
+    padding-left: 135px;
+    padding-right: 135px;
+    //  width: 1440px;
+    .c1 {
+      text-align: left;
+      width: 50%;
+    }
+    .c2 {
       text-align: right;
-      width: 50%; 
- }
- p{ 
-     font-family: DM Sans;
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 24px;
-     color: rgba(0, 0, 0, 0.50);
- }
->>>>>>> 4302dbe788fe96e4491a5ab75b826279204db9ec
-}
-
-@media all and (max-width: 375px) {
-  //Nishant Bhargava Css
-  .ncontactmain {
-    width: 375px;
+      width: 50%;
+    }
+    p {
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  .last-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f5f6fc;
+    // width: 1440px;
     // width: 100%;
-    // height: 2864px;
-    height: auto;
-    top: -382px;
-    left: 13132px;
+    height: 320px;
+    padding-left: 135px;
+    padding-right: 135px;
+    border-bottom: 0.5px solid #cbd5e1;
 
-    .nnavBar {
-      width: 375px;
-      height: 64px;
-    }
-    .nnavBar img {
-      width: 59px;
-      height: 24px;
-      position: absolute;
-      top: 16px;
-      left: 14px;
-    }
-    .nportfolio {
-      display: none;
-    }
-
-    .nportfolio a {
-      display: none;
-    }
-
-    .nnavbttn {
-      display: none;
-    }
-    .nhiddenmenu {
+    .logo {
       display: flex;
-      width: 20px;
-      height: 14px;
-      top: 3px;
-      left: 279px;
-      position: absolute;
-    }
-    .ncontact {
-      width: 375px;
-      height: 176px;
-      top: 64px;
-      background-color: #434ccc;
-      display: flex;
+      flex-direction: column;
+      // border: 1px solid;
+      padding-top: 72px;
+      flex-wrap: wrap;
 
-      h1 {
-        width: 194px;
-        height: 64px;
-        position: absolute;
-        top: 92px;
-        left: 92px;
+      h4 {
         font-family: DM Serif Display;
-        font-size: 56px;
-        font-weight: 400;
-        line-height: 64px;
-        letter-spacing: 0px;
-        text-align: center;
-      }
-
-      .npara {
-        width: 324px;
-        height: 32px;
-        position: absolute;
-        top: 169px;
-        left: 27px;
-        font-family: DM Sans;
-        font-size: 19px;
+        font-size: 24px;
         font-weight: 400;
         line-height: 32px;
-        letter-spacing: 0px;
-        text-align: center;
+        // margin-top: 72px;
+        // margin-left: 135px;
+      }
+      p {
+        width: 270px;
+        height: 79px;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 23px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      .social {
+        display: flex;
+        column-gap: 12px;
+        // margin-top: 16px;
+        flex-wrap: wrap;
       }
     }
-  }
+    .second-c {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      // border: 1px solid;
+      padding-top: 79px;
+      //  border: 1px solid;
 
-  .nMap {
-    width: 375px;
-    height: 1248px;
-    top: 240px;
-    background-color: rgb(245, 246, 252);
-
-    .nhiddenmain {
-      display: none;
-      width: 20px;
-      height: 14px;
-      top: 24px;
-      left: 340px;
-    }
-    .nhiddenimg {
-      display: block;
-    }
-    .nmsg {
-      width: 147px;
-      height: 48px;
-      top: 490px;
-      left: 14px;
-      position: absolute;
-    }
-
-    h2 {
-      font-size: 40px;
-      font-weight: 400;
-      line-height: 48px;
-      letter-spacing: 0px;
-      text-align: left;
-      font-family: "DM Serif Display";
-      color: #000000;
-    }
-  }
-
-  .nMask {
-    width: 347px;
-    height: 190px;
-    top: 256px;
-    left: 14px;
-    position: absolute;
-    background-color: #434ccc;
-    opacity: 1;
-  }
-
-  .nlocimg {
-    width: 72px;
-    height: 72px;
-    position: absolute;
-    top: 652px;
-    left: 684px;
-  }
-
-  .nnameInput {
-    width: 346px;
-    height: 76px;
-    top: 548px;
-    left: 14px;
-    position: absolute;
-  }
-
-  #nname {
-    width: 346px;
-    height: 48px;
-    top: 28px;
-    border: 1px;
-    position: absolute;
-    border: 1px solid #dadada;
-    background: #ffffff;
-  }
-
-  .nemailInput {
-    width: 346px;
-    height: 76px;
-    top: 612px;
-    left: 14px;
-
-    position: absolute;
-  }
-
-  #nemail {
-    width: 346px;
-    height: 48px;
-    top: 28px;
-    position: absolute;
-    border: 1px solid #dadada;
-    background: #ffffff;
-  }
-
-  .ntextareainput {
-    width: 347px;
-    height: 172px;
-    top: 676px;
-    left: 14px;
-    position: absolute;
-  }
-
-  #ntextarea {
-    width: 347px;
-    height: 144px;
-    top: 28px;
-    position: absolute;
-    border: 1px solid #dadada;
-    background: #ffffff;
-  }
-
-  .nsubbttn {
-    width: 170px;
-    height: 48px;
-    top: 880px;
-    left: 14px;
-    position: absolute;
-    background-color: #434ccc;
-    border: none;
-    color: white;
-    border-radius: 6px;
-  }
-
-  .ninfo {
-    width: 71px;
-    height: 48px;
-    top: 1004px;
-    left: 14px;
-    position: absolute;
-  }
-
-  .ncombine1 {
-    width: 48px;
-    height: 48px;
-    top: 1104px;
-    left: 14px;
-    position: absolute;
-  }
-
-  .ncombine2 {
-    width: 48px;
-    height: 48px;
-    top: 1184px;
-    left: 14px;
-    position: absolute;
-  }
-
-  .ncombine3 {
-    width: 48px;
-    height: 37px;
-    top: 1269px;
-    left: 14px;
-    position: absolute;
-  }
-
-  .ncomb1text {
-    width: 277px;
-    height: 48px;
-    top: 1103px;
-    left: 84px;
-    font-family: "DM Sans";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: left;
-    position: absolute;
-  }
-
-  .ncomb2text {
-    width: 200px;
-    height: 32px;
-    top: 1193px;
-    left: 84px;
-    position: absolute;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0px;
-    text-align: left;
-    font-family: "DM Sans";
-  }
-
-  .ncomb3text {
-    width: 200px;
-    height: 24px;
-    top: 1279px;
-    left: 84px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: left;
-    position: absolute;
-    font-family: "DM Sans";
-  }
-
-  .nfacebook {
-    width: 48px;
-    height: 48px;
-    top: 1360px;
-    left: 14px;
-    position: absolute;
-    border-radius: 5px;
-    background-color: #434ccc;
-  }
-
-  .ntwitter {
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    top: 1360px;
-    left: 70px;
-    border-radius: 5px;
-    background-color: #434ccc;
-  }
-
-  .ninsta {
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    top: 1360px;
-    left: 126px;
-    border-radius: 5px;
-    background-color: #434ccc;
-  }
-
-  .nfacebookimg {
-    width: 9px;
-    height: 18px;
-    position: absolute;
-    top: 1375px;
-    left: 34px;
-  }
-
-  .ntwitterimg {
-    width: 18px;
-    height: 15px;
-    position: absolute;
-    top: 1377px;
-    left: 85px;
-  }
-  .ninstaimg {
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    top: 1375px;
-    left: 141px;
-  }
-
-  //Rohan
-  .last-part{
-    // width: 1440px;
-    height: 352px;
-    display: block;
-    padding-left: 14px;
-    padding-top: 63px;
-    padding-right: 15px;
-    // padding-bottom: 50px;
-    // flex-direction: column;
-    background: #FFDD78;
-    // padding: 79px 135px 100px 135px;
-    h5{
-        color:  #000;
+      p {
         font-family: DM Sans;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px; 
+        line-height: 24px;
+        gap: 15px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      .cause {
+        //  margin-top:79px;
+        //  margin-bottom: 24px;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #000;
+      }
+    }
+    .third-c {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 38px;
+      // border: 1px solid;
+      padding-top: 79px;
+      .bitmap {
+        display: flex;
+        gap: 30px;
+
+        img {
+          width: 71px;
+          height: 48px;
+          border-radius: 5px;
+        }
+        p {
+          color: rgba(0, 0, 0, 0.5);
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        .date {
+          font-family: DM Sans;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          color: #000;
+        }
+      }
+    }
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    //  flex-direction: column;
+    // justify-content:space-around;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #f5f6fc;
+    padding-left: 135px;
+    padding-right: 135px;
+    //  width: 1440px;
+    .c1 {
+      text-align: left;
+      width: 50%;
+    }
+    .c2 {
+      text-align: right;
+      width: 50%;
+    }
+    p {
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  @media all and (max-width: 375px) {
+    //Nishant Bhargava Css
+    .ncontactmain {
+      width: 375px;
+      // width: 100%;
+      // height: 2864px;
+      height: auto;
+      top: -382px;
+      left: 13132px;
+
+      .nnavBar {
+        width: 375px;
+        height: 64px;
+      }
+      .nnavBar img {
+        width: 59px;
+        height: 24px;
+        position: absolute;
+        top: 16px;
+        left: 14px;
+      }
+      .nportfolio {
+        display: none;
+      }
+
+      .nportfolio a {
+        display: none;
+      }
+
+      .nnavbttn {
+        display: none;
+      }
+      .nhiddenmenu {
+        display: flex;
+        width: 20px;
+        height: 14px;
+        top: 3px;
+        left: 279px;
+        position: absolute;
+      }
+      .ncontact {
+        width: 375px;
+        height: 176px;
+        top: 64px;
+        background-color: #434ccc;
+        display: flex;
+
+        h1 {
+          width: 194px;
+          height: 64px;
+          position: absolute;
+          top: 92px;
+          left: 92px;
+          font-family: DM Serif Display;
+          font-size: 56px;
+          font-weight: 400;
+          line-height: 64px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+
+        .npara {
+          width: 324px;
+          height: 32px;
+          position: absolute;
+          top: 169px;
+          left: 27px;
+          font-family: DM Sans;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+      }
+    }
+
+    .nMap {
+      width: 375px;
+      height: 1248px;
+      top: 240px;
+      background-color: rgb(245, 246, 252);
+
+      .nhiddenmain {
+        display: none;
+        width: 20px;
+        height: 14px;
+        top: 24px;
+        left: 340px;
+      }
+      .nhiddenimg {
+        display: block;
+      }
+      .nmsg {
+        width: 147px;
+        height: 48px;
+        top: 490px;
+        left: 14px;
+        position: absolute;
+      }
+
+      h2 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: "DM Serif Display";
+        color: #000000;
+      }
+    }
+
+    .nMask {
+      width: 347px;
+      height: 190px;
+      top: 256px;
+      left: 14px;
+      position: absolute;
+      background-color: #434ccc;
+      opacity: 1;
+    }
+
+    .nlocimg {
+      width: 72px;
+      height: 72px;
+      position: absolute;
+      top: 652px;
+      left: 684px;
+    }
+
+    .nnameInput {
+      width: 346px;
+      height: 76px;
+      top: 548px;
+      left: 14px;
+      position: absolute;
+    }
+
+    #nname {
+      width: 346px;
+      height: 48px;
+      top: 28px;
+      border: 1px;
+      position: absolute;
+      border: 1px solid #dadada;
+      background: #ffffff;
+    }
+
+    .nemailInput {
+      width: 346px;
+      height: 76px;
+      top: 612px;
+      left: 14px;
+
+      position: absolute;
+    }
+
+    #nemail {
+      width: 346px;
+      height: 48px;
+      top: 28px;
+      position: absolute;
+      border: 1px solid #dadada;
+      background: #ffffff;
+    }
+
+    .ntextareainput {
+      width: 347px;
+      height: 172px;
+      top: 676px;
+      left: 14px;
+      position: absolute;
+    }
+
+    #ntextarea {
+      width: 347px;
+      height: 144px;
+      top: 28px;
+      position: absolute;
+      border: 1px solid #dadada;
+      background: #ffffff;
+    }
+
+    .nsubbttn {
+      width: 170px;
+      height: 48px;
+      top: 880px;
+      left: 14px;
+      position: absolute;
+      background-color: #434ccc;
+      border: none;
+      color: white;
+      border-radius: 6px;
+    }
+
+    .ninfo {
+      width: 71px;
+      height: 48px;
+      top: 1004px;
+      left: 14px;
+      position: absolute;
+    }
+
+    .ncombine1 {
+      width: 48px;
+      height: 48px;
+      top: 1104px;
+      left: 14px;
+      position: absolute;
+    }
+
+    .ncombine2 {
+      width: 48px;
+      height: 48px;
+      top: 1184px;
+      left: 14px;
+      position: absolute;
+    }
+
+    .ncombine3 {
+      width: 48px;
+      height: 37px;
+      top: 1269px;
+      left: 14px;
+      position: absolute;
+    }
+
+    .ncomb1text {
+      width: 277px;
+      height: 48px;
+      top: 1103px;
+      left: 84px;
+      font-family: "DM Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      position: absolute;
+    }
+
+    .ncomb2text {
+      width: 200px;
+      height: 32px;
+      top: 1193px;
+      left: 84px;
+      position: absolute;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      font-family: "DM Sans";
+    }
+
+    .ncomb3text {
+      width: 200px;
+      height: 24px;
+      top: 1279px;
+      left: 84px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      position: absolute;
+      font-family: "DM Sans";
+    }
+
+    .nfacebook {
+      width: 48px;
+      height: 48px;
+      top: 1360px;
+      left: 14px;
+      position: absolute;
+      border-radius: 5px;
+      background-color: #434ccc;
+    }
+
+    .ntwitter {
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      top: 1360px;
+      left: 70px;
+      border-radius: 5px;
+      background-color: #434ccc;
+    }
+
+    .ninsta {
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      top: 1360px;
+      left: 126px;
+      border-radius: 5px;
+      background-color: #434ccc;
+    }
+
+    .nfacebookimg {
+      width: 9px;
+      height: 18px;
+      position: absolute;
+      top: 1375px;
+      left: 34px;
+    }
+
+    .ntwitterimg {
+      width: 18px;
+      height: 15px;
+      position: absolute;
+      top: 1377px;
+      left: 85px;
+    }
+    .ninstaimg {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      top: 1375px;
+      left: 141px;
+    }
+
+    //Rohan
+    .last-part {
+      // width: 1440px;
+      height: 352px;
+      display: block;
+      padding-left: 14px;
+      padding-top: 63px;
+      padding-right: 15px;
+      // padding-bottom: 50px;
+      // flex-direction: column;
+      background: #ffdd78;
+      // padding: 79px 135px 100px 135px;
+      h5 {
+        color: #000;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
         letter-spacing: 4.8px;
-        text-transform: uppercase; 
+        text-transform: uppercase;
         align-self: flex-start;
         // margin-left: 135px;
         margin-top: 37px;
-    }
-    .inner-part{
+      }
+      .inner-part {
         display: block;
-        .h1{
-            width: 516px;
-            // margin-right: 84px;
-            padding-top: 21px;
-            // border: 1px solid red;
-            h1{
-              color:  #000;
-              font-family: DM Serif Display;
-              font-size: 40px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: 48px; 
-               
-            }
+        .h1 {
+          width: 516px;
+          // margin-right: 84px;
+          padding-top: 21px;
+          // border: 1px solid red;
+          h1 {
+            color: #000;
+            font-family: DM Serif Display;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 48px;
+          }
         }
-        .left-input{
+        .left-input {
           display: flex;
           align-items: center;
           flex-direction: column;
           flex-wrap: wrap;
           gap: 8px;
-          
         }
-        input{
-            width: 346px;
-            height: 48px;
-            border-radius: 5px;
-            border: 1px solid #DADADA;
-            background: #FFF;
-            margin-right: 30px;
-            border-style: none; 
+        input {
+          width: 346px;
+          height: 48px;
+          border-radius: 5px;
+          border: 1px solid #dadada;
+          background: #fff;
+          margin-right: 30px;
+          border-style: none;
         }
-        button{
-            width: 170px;
-            height: 48px;
-            align-self: flex-start;
+        button {
+          width: 170px;
+          height: 48px;
+          align-self: flex-start;
         }
+      }
     }
-  }
-  .last-container{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    background-color: #f5f6fc;
-    height: auto;
-     padding-left: 14px;
-     padding-right: 14px;
-     padding-bottom:50px ;
-     border-bottom: 0.5px solid #cbd5e1;
-     
-    .logo{
-     display: flex;
-     flex-direction: column;
-    display: block;
-     p{
+    .last-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      background-color: #f5f6fc;
+      height: auto;
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-bottom: 50px;
+      border-bottom: 0.5px solid #cbd5e1;
+
+      .logo {
+        display: flex;
+        flex-direction: column;
+        display: block;
+        p {
           width: 346px;
           height: 79px;
-     }
+        }
+      }
     }
-    
-    }
-    .footer{
+    .footer {
       display: flex;
       flex-direction: column;
       height: auto;
-     background-color: #f5f6fc;
-     padding: 20px 14px 20px 14px;
-     gap: 8px;
-     .c1{
+      background-color: #f5f6fc;
+      padding: 20px 14px 20px 14px;
+      gap: 8px;
+      .c1 {
         width: 100%;
-       
-     }
-     .c2{
-         text-align: left;
-         width: 100%; 
-     }
-    
+      }
+      .c2 {
+        text-align: left;
+        width: 100%;
+      }
     }
+  }
 }
