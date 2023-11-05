@@ -124,13 +124,13 @@
   border: 1px solid blue;
   font-size: 16px;
 }
-.main .subscribe {
+.main .Dsubscribe {
   max-width: 1440px;
   height: 352px;
   border: 1px solid green;
   background-color: #ffdd78;
 }
-.main .subscribe .last-part {
+.main .Dsubscribe .Dlast-part {
   max-width: 1440px;
   height: 352px;
   flex-shrink: 0;
@@ -138,7 +138,7 @@
   flex-direction: column;
   background: #ffdd78;
 }
-.main .subscribe .last-part h5 {
+.main .Dsubscribe .Dlast-part h5 {
   color: var(--Text_Black, #000);
   font-family: DM Sans;
   font-size: 16px;
@@ -151,16 +151,16 @@
   margin-left: 135px;
   margin-top: 79px;
 }
-.main .subscribe .last-part .inner-part {
+.main .Dsubscribe .Dlast-part .Dinner-part {
   display: flex;
   align-items: center;
   margin: 0px 135px 100px 135px;
 }
-.main .subscribe .last-part .inner-part .h1 {
+.main .Dsubscribe .Dlast-part .Dinner-part .Dh1 {
   width: 516px;
   margin-right: 84px;
 }
-.main .subscribe .last-part .inner-part .h1 h1 {
+.main .Dsubscribe .Dlast-part .Dinner-part .Dh1 h1 {
   color: var(--Text_Black, #000);
   font-family: DM Serif Display;
   font-size: 56px;
@@ -168,7 +168,7 @@
   font-weight: 400;
   line-height: 64px;
 }
-.main .subscribe .last-part .inner-part input {
+.main .Dsubscribe .Dlast-part .Dinner-part input {
   width: 370px;
   height: 48px;
   flex-shrink: 0;
@@ -178,7 +178,7 @@
   margin-right: 30px;
   border-style: none;
 }
-.main .subscribe .last-part .inner-part button {
+.main .Dsubscribe .Dlast-part .Dinner-part button {
   width: 170px;
   height: 48px;
   flex-shrink: 0;
@@ -716,7 +716,6 @@
   background: #fff;
   margin-right: 30px;
   border-style: none;
-  padding-left: 12px;
 }
 .last-part .inner-part button {
   width: 170px;
@@ -781,7 +780,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  gap: 15px;
+  gap: 10px;
   color: rgba(0, 0, 0, 0.5);
 }
 .last-container .second-c .cause {
@@ -824,8 +823,147 @@
   line-height: 24px;
   color: #000;
 }
-
-.footer {
+.last-container .third-c .bitmap .date input {
+  width: 370px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  background: #fff;
+  margin-right: 30px;
+  border-style: none;
+  padding-left: 12px;
+}
+.last-container .third-c .bitmap .date button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #434ccc;
+  color: white;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.last-container .footer {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #f5f6fc;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.last-container .footer .c1 {
+  text-align: left;
+  width: 50%;
+}
+.last-container .footer .c2 {
+  text-align: right;
+  width: 50%;
+}
+.last-container .footer p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.last-container .last-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f5f6fc;
+  height: 320px;
+  padding-left: 135px;
+  padding-right: 135px;
+  border-bottom: 0.5px solid #cbd5e1;
+}
+.last-container .last-container .logo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  flex-wrap: wrap;
+}
+.last-container .last-container .logo h4 {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.last-container .last-container .logo p {
+  width: 270px;
+  height: 79px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.last-container .last-container .logo .social {
+  display: flex;
+  column-gap: 12px;
+  flex-wrap: wrap;
+}
+.last-container .last-container .second-c {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 79px;
+}
+.last-container .last-container .second-c p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  gap: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.last-container .last-container .second-c .cause {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+.last-container .last-container .third-c {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 38px;
+  padding-top: 79px;
+}
+.last-container .last-container .third-c .bitmap {
+  display: flex;
+  gap: 30px;
+}
+.last-container .last-container .third-c .bitmap img {
+  width: 71px;
+  height: 48px;
+  border-radius: 5px;
+}
+.last-container .last-container .third-c .bitmap p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.last-container .last-container .third-c .bitmap .date {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+.last-container .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -834,15 +972,15 @@
   padding-left: 135px;
   padding-right: 135px;
 }
-.footer .c1 {
+.last-container .footer .c1 {
   text-align: left;
   width: 50%;
 }
-.footer .c2 {
+.last-container .footer .c2 {
   text-align: right;
   width: 50%;
 }
-.footer p {
+.last-container .footer p {
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -850,35 +988,34 @@
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-
 @media all and (max-width: 375px) {
-  .ncontactmain {
+  .last-container .ncontactmain {
     width: 375px;
     height: auto;
     top: -382px;
     left: 13132px;
   }
-  .ncontactmain .nnavBar {
+  .last-container .ncontactmain .nnavBar {
     width: 375px;
     height: 64px;
   }
-  .ncontactmain .nnavBar img {
+  .last-container .ncontactmain .nnavBar img {
     width: 59px;
     height: 24px;
     position: absolute;
     top: 16px;
     left: 14px;
   }
-  .ncontactmain .nportfolio {
+  .last-container .ncontactmain .nportfolio {
     display: none;
   }
-  .ncontactmain .nportfolio a {
+  .last-container .ncontactmain .nportfolio a {
     display: none;
   }
-  .ncontactmain .nnavbttn {
+  .last-container .ncontactmain .nnavbttn {
     display: none;
   }
-  .ncontactmain .nhiddenmenu {
+  .last-container .ncontactmain .nhiddenmenu {
     display: flex;
     width: 20px;
     height: 14px;
@@ -886,14 +1023,14 @@
     left: 279px;
     position: absolute;
   }
-  .ncontactmain .ncontact {
+  .last-container .ncontactmain .ncontact {
     width: 375px;
     height: 176px;
     top: 64px;
     background-color: #434ccc;
     display: flex;
   }
-  .ncontactmain .ncontact h1 {
+  .last-container .ncontactmain .ncontact h1 {
     width: 194px;
     height: 64px;
     position: absolute;
@@ -906,7 +1043,7 @@
     letter-spacing: 0px;
     text-align: center;
   }
-  .ncontactmain .ncontact .npara {
+  .last-container .ncontactmain .ncontact .npara {
     width: 324px;
     height: 32px;
     position: absolute;
@@ -919,30 +1056,30 @@
     letter-spacing: 0px;
     text-align: center;
   }
-  .nMap {
+  .last-container .nMap {
     width: 375px;
     height: 1248px;
     top: 240px;
     background-color: rgb(245, 246, 252);
   }
-  .nMap .nhiddenmain {
+  .last-container .nMap .nhiddenmain {
     display: none;
     width: 20px;
     height: 14px;
     top: 24px;
     left: 340px;
   }
-  .nMap .nhiddenimg {
+  .last-container .nMap .nhiddenimg {
     display: block;
   }
-  .nMap .nmsg {
+  .last-container .nMap .nmsg {
     width: 147px;
     height: 48px;
     top: 490px;
     left: 14px;
     position: absolute;
   }
-  .nMap h2 {
+  .last-container .nMap h2 {
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
@@ -951,7 +1088,7 @@
     font-family: "DM Serif Display";
     color: #000000;
   }
-  .nMask {
+  .last-container .nMask {
     width: 347px;
     height: 190px;
     top: 256px;
@@ -960,21 +1097,21 @@
     background-color: #434ccc;
     opacity: 1;
   }
-  .nlocimg {
+  .last-container .nlocimg {
     width: 72px;
     height: 72px;
     position: absolute;
     top: 652px;
     left: 684px;
   }
-  .nnameInput {
+  .last-container .nnameInput {
     width: 346px;
     height: 76px;
     top: 548px;
     left: 14px;
     position: absolute;
   }
-  #nname {
+  .last-container #nname {
     width: 346px;
     height: 48px;
     top: 28px;
@@ -983,14 +1120,14 @@
     border: 1px solid #dadada;
     background: #ffffff;
   }
-  .nemailInput {
+  .last-container .nemailInput {
     width: 346px;
     height: 76px;
     top: 612px;
     left: 14px;
     position: absolute;
   }
-  #nemail {
+  .last-container #nemail {
     width: 346px;
     height: 48px;
     top: 28px;
@@ -998,14 +1135,14 @@
     border: 1px solid #dadada;
     background: #ffffff;
   }
-  .ntextareainput {
+  .last-container .ntextareainput {
     width: 347px;
     height: 172px;
     top: 676px;
     left: 14px;
     position: absolute;
   }
-  #ntextarea {
+  .last-container #ntextarea {
     width: 347px;
     height: 144px;
     top: 28px;
@@ -1013,7 +1150,7 @@
     border: 1px solid #dadada;
     background: #ffffff;
   }
-  .nsubbttn {
+  .last-container .nsubbttn {
     width: 170px;
     height: 48px;
     top: 880px;
@@ -1024,35 +1161,35 @@
     color: white;
     border-radius: 6px;
   }
-  .ninfo {
+  .last-container .ninfo {
     width: 71px;
     height: 48px;
     top: 1004px;
     left: 14px;
     position: absolute;
   }
-  .ncombine1 {
+  .last-container .ncombine1 {
     width: 48px;
     height: 48px;
     top: 1104px;
     left: 14px;
     position: absolute;
   }
-  .ncombine2 {
+  .last-container .ncombine2 {
     width: 48px;
     height: 48px;
     top: 1184px;
     left: 14px;
     position: absolute;
   }
-  .ncombine3 {
+  .last-container .ncombine3 {
     width: 48px;
     height: 37px;
     top: 1269px;
     left: 14px;
     position: absolute;
   }
-  .ncomb1text {
+  .last-container .ncomb1text {
     width: 277px;
     height: 48px;
     top: 1103px;
@@ -1065,7 +1202,7 @@
     text-align: left;
     position: absolute;
   }
-  .ncomb2text {
+  .last-container .ncomb2text {
     width: 200px;
     height: 32px;
     top: 1193px;
@@ -1078,7 +1215,7 @@
     text-align: left;
     font-family: "DM Sans";
   }
-  .ncomb3text {
+  .last-container .ncomb3text {
     width: 200px;
     height: 24px;
     top: 1279px;
@@ -1091,7 +1228,7 @@
     position: absolute;
     font-family: "DM Sans";
   }
-  .nfacebook {
+  .last-container .nfacebook {
     width: 48px;
     height: 48px;
     top: 1360px;
@@ -1100,7 +1237,7 @@
     border-radius: 5px;
     background-color: #434ccc;
   }
-  .ntwitter {
+  .last-container .ntwitter {
     width: 48px;
     height: 48px;
     position: absolute;
@@ -1109,7 +1246,7 @@
     border-radius: 5px;
     background-color: #434ccc;
   }
-  .ninsta {
+  .last-container .ninsta {
     width: 48px;
     height: 48px;
     position: absolute;
@@ -1118,36 +1255,36 @@
     border-radius: 5px;
     background-color: #434ccc;
   }
-  .nfacebookimg {
+  .last-container .nfacebookimg {
     width: 9px;
     height: 18px;
     position: absolute;
     top: 1375px;
     left: 34px;
   }
-  .ntwitterimg {
+  .last-container .ntwitterimg {
     width: 18px;
     height: 15px;
     position: absolute;
     top: 1377px;
     left: 85px;
   }
-  .ninstaimg {
+  .last-container .ninstaimg {
     width: 18px;
     height: 18px;
     position: absolute;
     top: 1375px;
     left: 141px;
   }
-  .last-part {
+  .last-container .last-part {
     height: 352px;
     display: block;
     padding-left: 14px;
     padding-top: 63px;
     padding-right: 15px;
-    background: #FFDD78;
+    background: #ffdd78;
   }
-  .last-part h5 {
+  .last-container .last-part h5 {
     color: #000;
     font-family: DM Sans;
     font-size: 16px;
@@ -1159,14 +1296,14 @@
     align-self: flex-start;
     margin-top: 37px;
   }
-  .last-part .inner-part {
+  .last-container .last-part .inner-part {
     display: block;
   }
-  .last-part .inner-part .h1 {
+  .last-container .last-part .inner-part .h1 {
     width: 516px;
     padding-top: 21px;
   }
-  .last-part .inner-part .h1 h1 {
+  .last-container .last-part .inner-part .h1 h1 {
     color: #000;
     font-family: DM Serif Display;
     font-size: 40px;
@@ -1174,28 +1311,28 @@
     font-weight: 400;
     line-height: 48px;
   }
-  .last-part .inner-part .left-input {
+  .last-container .last-part .inner-part .left-input {
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 8px;
   }
-  .last-part .inner-part input {
+  .last-container .last-part .inner-part input {
     width: 346px;
     height: 48px;
     border-radius: 5px;
-    border: 1px solid #DADADA;
-    background: #FFF;
+    border: 1px solid #dadada;
+    background: #fff;
     margin-right: 30px;
     border-style: none;
   }
-  .last-part .inner-part button {
+  .last-container .last-part .inner-part button {
     width: 170px;
     height: 48px;
     align-self: flex-start;
   }
-  .last-container {
+  .last-container .last-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     background-color: #f5f6fc;
@@ -1205,16 +1342,16 @@
     padding-bottom: 50px;
     border-bottom: 0.5px solid #cbd5e1;
   }
-  .last-container .logo {
+  .last-container .last-container .logo {
     display: flex;
     flex-direction: column;
     display: block;
   }
-  .last-container .logo p {
+  .last-container .last-container .logo p {
     width: 346px;
     height: 79px;
   }
-  .footer {
+  .last-container .footer {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -1222,10 +1359,10 @@
     padding: 20px 14px 20px 14px;
     gap: 8px;
   }
-  .footer .c1 {
+  .last-container .footer .c1 {
     width: 100%;
   }
-  .footer .c2 {
+  .last-container .footer .c2 {
     text-align: left;
     width: 100%;
   }
